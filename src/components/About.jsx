@@ -7,7 +7,7 @@ const About = () => {
     <p>
       I'm a Level 300 <b>Information Technology</b> student
       and backend developer focused on building scalable web architectures and
-      cloud infrastructure. Most fo my hands-on work revolves around designing multi-tenant SaaS backends, setting up automated background tasks, and managing cloud deployments on AWS.
+      cloud infrastructure. Most of my hands-on work revolves around designing multi-tenant SaaS backends, setting up automated background tasks, and managing cloud deployments on AWS.
       <br />
       Alongside backend engineering, I'm actively learning penetration testing and system hardening, bridging the gap between shipping features fast and keeping them secure 
     </p>
