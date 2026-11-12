@@ -13,6 +13,7 @@ import SidebarNav from "./components/SidebarNav";
 import RobotGame from "./components/RobotGame";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 import "./styles/Global.css";
 import "./styles/RobotGame.css";
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics />
       <NavBar />
       <div className="game-toggle-fixed">
         <div className="game-toggle-row">
