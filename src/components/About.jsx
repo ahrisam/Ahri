@@ -14,8 +14,7 @@ const About = () => {
   );
   const two = (
     <p>
-      In my free time, I'm nerdy about tech gadgets, love literary fiction, and
-      play way too many battle royale games.
+     In my free time, I trade code for TikTok scrolls, good music, way too many hours listening to Dave, and getting caught up in a good movie.
     </p>
   );
 
