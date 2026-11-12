@@ -11,6 +11,7 @@ const spotlightProjects = {
     desc: "A multi-branch retail point-of-sale and inventory platform with database-level tenant isolation, idempotent checkout processing, end-of-day Z-Report auditing, and automated daily SMS business insights powered by Celery, Redis, and Arkesel.",
     techStack: "Django · PostgreSQL · Redis · Celery · AWS · Nginx",
     link: "https://github.com/ahrisam/POS.git",
+    open: "https://pos.scaleupsite.online/",
     image: "/assets/pos-system.png",
   },
 };
