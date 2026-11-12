@@ -121,7 +121,6 @@ const AsciiPortrait = () => {
 
     // Generate the ASCII portrait from the current profile image.
     const img = new Image();
-    img.crossOrigin = "Anonymous";
     img.src = "/profile.png";
     img.onload = () => {
       const raw = processImage(img, size);
