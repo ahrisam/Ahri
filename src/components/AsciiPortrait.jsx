@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from "react";
-import { asciiData } from "../assets/asciiData";
 
 // Module-level cache to persist between remounts
 const memoryCache = {};
@@ -112,15 +111,7 @@ const AsciiPortrait = () => {
   useEffect(() => {
     const isMobileSize = size <= 280;
     
-    // 1. Check pre-calculated static data
-    if (asciiData[size]) {
-      particlesRef.current = createParticlesFromRaw(asciiData[size], isMobileSize);
-      setDataReady(true);
-      startTimeRef.current = performance.now();
-      return;
-    }
-
-    // 2. Check memory cache
+    // Reuse generated particles when this size has already been processed.
     if (memoryCache[size]) {
       particlesRef.current = createParticlesFromRaw(memoryCache[size], isMobileSize);
       setDataReady(true);
@@ -128,7 +119,7 @@ const AsciiPortrait = () => {
       return;
     }
 
-    // 3. Fallback to image processing
+    // Generate the ASCII portrait from the current profile image.
     const img = new Image();
     img.crossOrigin = "Anonymous";
     img.src = "/profile.png";

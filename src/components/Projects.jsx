@@ -6,65 +6,21 @@ import { Carousel } from "react-bootstrap";
 import ExternalLinks from "./ExternalLinks";
 
 const spotlightProjects = {
-  Blob: {
-    title: "blob",
-    desc: "A Portal 2-inspired 3D puzzle platformer with a split mechanic built in Unity",
-    techStack: "C# (UNITY)",
-    link: "https://github.com/gazijarin/Blob",
-    image: "/assets/blob.png",
-  },
-  "No Man's Land": {
-    title: "no man's land",
-    desc: "A third-person survival-mode game where you battle against time and space to return to Earth.",
-    techStack: "C# (UNITY)",
-    link: "https://github.com/slakh96/no-mans-land",
-    open: "https://gazijarin.itch.io/no-mans-land",
-    image: "/assets/nomansland.png",
-  },
-  "Tall Tales": {
-    title: "tall tales",
-    desc: "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-    techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-    link: "https://github.com/gazijarin/TallTales",
-    open: "https://talltales.herokuapp.com/",
-    image: "/assets/talltales.png",
-  },
-  Portfolio: {
-    title: "portfolio.js",
-    desc: "A small JS library that helps with clear and succinct data presentation.",
-    techStack: "NODE.JS (EXPRESS.JS)",
-    link: "https://github.com/gazijarin/Portfolio.js",
-    open: "https://afternoon-ocean-92382.herokuapp.com/",
-    image: "/assets/portfolio.png",
+  "Multi-Tenant POS & Inventory SaaS": {
+    title: "Multi-Tenant POS & Inventory SaaS",
+    desc: "A multi-branch retail point-of-sale and inventory platform with database-level tenant isolation, idempotent checkout processing, end-of-day Z-Report auditing, and automated daily SMS business insights powered by Celery, Redis, and Arkesel.",
+    techStack: "Django · PostgreSQL · Redis · Celery · AWS · Nginx",
+    link: "https://github.com/ahrisam/Ahri.git",
+    image: "/assets/pos-system.png",
   },
 };
 
 const projects = {
-  "Gazi-V2 Portfolio": {
-    desc: "This is the second iteration of my portfolio, designed and rebuilt from the ground up using React and Vite. The previous version, now deprecated, earned 288+ stars on GitHub.",
-    techStack: "React.js, Vite, Bootstrap",
-    link: "https://github.com/gazijarin/Gazi-V2",
-    open: "https://gazijarin.com/",
+  "Multi-Tenant POS & Inventory SaaS": {
+    desc: "A multi-branch retail point-of-sale and inventory platform with database-level tenant isolation, idempotent checkout processing, end-of-day Z-Report auditing, and automated daily SMS business insights powered by Celery, Redis, and Arkesel.",
+    techStack: "Django, PostgreSQL, Redis, Celery, AWS, Nginx",
+    link: "https://github.com/ahrisam/Ahri.git",
   },
-  "TDSB Homework Management Interface": {
-    desc: "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-    techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-    link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-    open: "https://tdsb-app.herokuapp.com/",
-  },
-  "Adam A.I.": {
-    desc: "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-    techStack: "Javascript, HTML / CSS",
-    link: "https://github.com/gazijarin/adamai",
-    open: "https://gazijarin.github.io/AdamAI/",
-  },
-  /*
-  "Distributed Logging and Monitoring System": {
-    desc: "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-    techStack: "Node.js (Express.js), React.js, PostgreSQL",
-    link: "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System",
-  },
-  */
 };
 
 const Projects = () => {

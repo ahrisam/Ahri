@@ -80,8 +80,8 @@ function App() {
                 <About />
                 <Experience />
                 <Projects />
-                <HardwareProjects />
-                <Art />
+                {/* <HardwareProjects /> */}
+                {/* <Art /> */}
                 <Credits />
               </>
             }

@@ -5,26 +5,29 @@ import FadeInSection from "./FadeInSection";
 const About = () => {
   const one = (
     <p>
-      I am currently a <b>Software Engineer</b> at
-      <a href="https://www.ads.google.com/"> Google</a>, where I help build
-      autobidder models that make Google Search money. Previously, I was at{" "}
-      <a href="https://www.aboutamazon.com/"> Amazon</a> and{" "}
-      <a href="https://newsroom.pinterest.com/company/"> Pinterest.</a>
+      I'm a Level 300 <b>Information Technology</b> student
+      and backend developer focused on building scalable web architectures and
+      cloud infrastructure. Most fo my hands-on work revolves around designing multi-tenant SaaS backends, setting up automated background tasks, and managing cloud deployments on AWS.
+      <br />
+      Alongside backend engineering, I'm actively learning penetration testing and system hardening, bridging the gap between shipping features fast and keeping them secure 
     </p>
   );
   const two = (
     <p>
-      In my free time, I’m nerdy about tech gadgets, love literary fiction, and
+      In my free time, I'm nerdy about tech gadgets, love literary fiction, and
       play way too many battle royale games. Oh, I make content too.
     </p>
   );
 
   const techStack = [
     "Python",
-    "Typescript",
-    "React.js",
-    "Java",
-    "Javascript ES6+",
+    "Django",
+    "PostgreSQL",
+    "Redis & Celery",
+    "AWS",
+    "Linux & Nginx",
+    "JavaScript",
+    "Kali Linux & Nmap",
   ];
 
   return (
